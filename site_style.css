@@ -2,7 +2,7 @@
             /* Consulted Mozilla Website for importing fonts: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face */
             @font-face{
                 font-family: mephisto;
-                src:url('assets/Mephisto font/Mephisto.ttf');
+                src:url('assets/mephistofont/Mephisto.ttf');
             }
             #welcome{
                 background-image: url('assets/welcomebackground.jpg'); 
