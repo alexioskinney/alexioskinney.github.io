@@ -1,0 +1,245 @@
+
+            /* Consulted Mozilla Website for importing fonts: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@font-face */
+            @font-face{
+                font-family: mephisto;
+                src:url('assets/Mephisto font/Mephisto.ttf');
+            }
+            #welcome{
+                background-image: url('assets/welcomebackground.jpg'); 
+                background-position: center center;
+                background-attachment: fixed;
+            }
+            /* Consulted Mozilla Website for formatting Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+            .welcome-body{
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                align-items: center;
+                flex-direction: column;
+                margin-bottom: 25vh;
+                margin-top: 25vh;
+            }
+            .welcome-title{
+                font-family: mephisto;
+                color: white;
+                text-align: center;
+                font-size: 10em;
+            }
+            .button{
+                font-size: 3em;
+                cursor:url(assets/cursor.png), pointer;
+            }
+            body{
+                background-color:lemonchiffon;
+                /* Consulted Mozilla Website for cursors: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/cursor */
+                cursor:url(assets/cursor.png), pointer;
+            }
+            .navigation{
+                margin-top: 1.75em;
+                margin-bottom: 1.75em;
+                text-align: center;
+            }
+            .my-links{
+                font-family: mephisto;
+                font-size: 3vw;
+                text-decoration: none;
+                padding: 1em;
+                color:#22311d;
+                cursor:url(assets/cursor.png), pointer;
+            }
+            .heading_justified{
+                margin-top: 2vw;
+                margin-bottom: 2vw;
+                text-align: left;
+            }
+            .about-title{
+                font-family: mephisto;
+                font-size: 5vw;
+                text-decoration: underline;
+                padding: 2vw;
+                color:#22311d;
+            }
+            /* Consulted Mozilla Website for formatting grids: https://css-tricks.com/complete-guide-css-grid-layout/ */
+            .row{
+                display: grid;
+                grid-template-columns: auto auto auto;
+            }
+            .column-left{
+                width: 50vw;
+            }
+            .column-right{
+                width: 50vw;
+            }
+            .me-photo{
+                display: block;
+                margin: auto;
+                width: 30vw;
+            }
+            .about-me-text{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1.5vw;
+                padding: 2vw;
+                text-align: left;
+                color:#22311d;
+            }
+            .me-title{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1.5vw;
+                text-align: center;
+                color:#22311d;
+            }
+            #research-interests{
+                font-family: mephisto;
+                font-size: 3vw;
+                text-decoration: underline;
+                padding: 2vw;
+                color:#22311d;
+            }
+            #research-list{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1.5vw;
+                padding: 2vw;
+                text-align: left;
+                color:#22311d;
+            }
+            .footer{
+                height: 15vh;
+                background-color:#22311d;
+                cursor:url(assets/cursor.png), pointer;
+            }
+            .footer-links{
+                text-align: center;
+            }
+            .required-footer{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1vw;
+                text-align: left;
+                color:lemonchiffon;
+                padding-left:1vw;
+            }
+            .small-links{
+                font-family: mephisto;
+                font-size: 1.5vw;
+                text-align: center;
+                color:lemonchiffon;
+                padding: 2vw;
+                cursor:url(assets/cursor.png), pointer;
+            }
+            .cv-column-left{
+                width: 60vw;
+            }
+            .bio-column-right{
+                width: 30vw;
+                background-color:#22311d;
+            }
+            .bio-info{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size:1.5vw;
+                padding: 2vw;
+                text-align: left;
+                color:lemonchiffon;
+            }
+            .education{
+                text-align: left;
+                color:#22311d;
+            }
+            .cv-title{
+                padding: 2vw;
+                font-family: mephisto;
+                font-size:3vw;
+                text-decoration: underline;
+                color:#22311d;
+            }
+            .tables{
+                padding: 2vw;
+                width: 92vw;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size:1.5vw;
+                color:#22311d;
+            }
+            .education-tables{
+                width: 60vw;
+                padding: 2vw;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size:1.5vw;
+                color:#22311d;
+            }
+            .table-justify{
+                text-align: right;
+            }
+            #cv-productions{
+                width: 80vw;
+                padding-left: 10vw;
+                padding-bottom: 3vw;
+                text-align: left;
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1vw;
+                color:#22311d;
+            }
+            .productions-table-borders{
+                border-bottom: 1px solid #22311d;
+            }
+            .hobby-row{
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-template-rows: repeat(2,40vw);
+                gap: 5vw;
+                height: 30vw;
+                padding-bottom: 20vw;
+            }
+            .hobbies-column-left{
+                width: 40vw;
+                height: 40vw;
+                padding: 3vw;
+                border-radius: 2vw;
+                background-color: #22311d;
+            }
+            .hobbies-column-right{
+                width: 40vw;
+                height: 40vw;
+                border-radius: 2vw;
+                padding: 3vw;
+                background-color: #22311d;
+            }
+            .hobbies-title{
+                font-family: mephisto;
+                font-size:3vw;
+                text-decoration: underline;
+                color:lemonchiffon;
+            }
+            .inner-grid{
+                display:grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap:1vw;
+                padding-left:1vw;
+            }
+            .work{
+                width:10vw;
+                height:auto;
+                padding:1vw;
+            }
+            #speedpaint-video{
+                width:30vw;
+                height:auto;
+            }
+            .hobbies-subtitle{
+                font-family: mephisto;
+                font-size:2vw;
+                text-decoration: none;
+                color:lemonchiffon;
+            }
+            ol{
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                font-size: 1.5vw;
+                padding: 2vw;
+                text-align: left;
+                color:lemonchiffon;
+            }
+            p{
+                cursor:url(assets/cursor.png), pointer;
+            }
+            /* Consulted W3 Schools Website for link styling: https://www.w3schools.com/css/css_link.asp */
+            .outer-links {
+                color: lemonchiffon;
+                cursor:url(assets/cursor.png), pointer;
+            }
