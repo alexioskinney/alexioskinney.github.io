@@ -8,6 +8,7 @@
                 background-image: url('assets/welcomebackground.jpg'); 
                 background-position: center center;
                 background-attachment: fixed;
+                cursor:url(assets/cursor.png), pointer;
             }
             /* Consulted Mozilla Website for formatting Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
             .welcome-body{
